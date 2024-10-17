@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="flex justify-center items-center min-h-screen bg-black">
+    <div class="card-container bg-deepBlue p-8 space-y-6 rounded-3xl">
+      <div
+        class="bg-customGray rounded-full w-8 h-8 flex justify-center items-center"
+      >
+        <img src="./images/icon-star.svg" class="w-4 h-4" />
+      </div>
+      <h2 class="text-white font-bold text-2xl">How did we do?</h2>
+      <p class="max-w-xs text-lightGray">
+        Please let us know we did with you support request. All feedback is
+        appriciated to help us improve our challange!
+      </p>
+      <div>
+        <div class="flex gap-6">
+          <button
+            class="btn-1 btns bg-customGray hover:text-black focus:bg-focusGray focus:text-white rounded-full text-lightGray h-4 w-4 p-5 flex justify-center items-center"
+          >
+            1
+          </button>
+          <button
+            class="btn-2 btns bg-customGray hover:text-black focus:bg-focusGray focus:text-white rounded-full text-lightGray h-4 w-4 p-5 flex justify-center items-center"
+          >
+            2
+          </button>
+          <button
+            class="btn-3 btns bg-customGray hover:text-black focus:bg-focusGray focus:text-white rounded-full text-lightGray h-4 w-4 p-5 flex justify-center items-center"
+          >
+            3
+          </button>
+          <button
+            class="btn-4 btns bg-customGray hover:text-black focus:bg-focusGray focus:text-white rounded-full text-lightGray h-4 w-4 p-5 flex justify-center items-center"
+          >
+            4
+          </button>
+          <button
+            class="btn-5 btns bg-customGray hover:text-black focus:bg-focusGray focus:text-white rounded-full text-lightGray h-4 w-4 p-5 flex justify-center items-center"
+          >
+            5
+          </button>
+        </div>
+        <button
+          type="submit"
+          class="btn-submit bg-brightOrange hover:bg-white py-2 mt-6 w-full rounded-full font-bold"
+        >
+          SUBMIT
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="thanks-container flex justify-center mt-[3%] bg-[#262E38] items-center p-6 flex-col rounded-3xl gap-6 hidden"
+    >
+      <img src="./images/illustration-thank-you.svg" />
+      <p class="bg-[#262558] py-1 px-4 rounded-full text-orange-600">
+        You selected <span class="num-display">4</span> out of 5
+      </p>
+      <h2 class="text-3xl text-white font-semibold">Thank You!</h2>
+      <p class="text-center max-w-xs text-[#969FAD]">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
